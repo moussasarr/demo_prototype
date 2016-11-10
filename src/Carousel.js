@@ -1,11 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import ReactSwipe from 'react-swipe'
-
-
-
-
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 class Carousel extends React.Component {
   constructor() {
@@ -49,51 +44,20 @@ class Carousel extends React.Component {
         </ReactSwipe>
 
         <div>
-          <button type="button" onClick={this.prev}>Prev</button>
-          <button type="button" onClick={this.next}>Next</button>
-          <button type="button" onClick={this.addSlide}>Add Slide</button>
+          <button type="button" onClick={::this.prev}>Prev</button>
+          <button type="button" onClick={::this.next}>Next</button>
+          <button type="button" onClick={::this.addSlide}>Add Slide</button>
         </div>
       </div>
     );
   }
 }
 
-ReactDOM.render(
-  <Carousel />,
-  document.getElementById('root')
-);
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default Carousel;
 
 
 
