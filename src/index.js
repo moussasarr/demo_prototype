@@ -42,7 +42,7 @@ class Carousel extends React.Component {
           {this.state.slides.map(slide => {
             return (
               <div key={slide} className="item">
-                <img src={slide} alt="An Image"/>
+                <img src={slide} alt="An Image" class="image"/>
               </div>
             );
           })}

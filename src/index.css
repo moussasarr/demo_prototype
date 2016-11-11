@@ -9,5 +9,14 @@ body {
       background: #fff;
       overflow: hidden;
       line-height: 214px;
-      height: 214px;
+      height: 90%;
+    }
+
+
+
+     .carousel .item .image{
+      background: #fff;
+      overflow: hidden;
+      line-height: 214px;
+      height: 80%;
     }
