@@ -11,8 +11,9 @@ class Carousel extends React.Component {
   constructor() {
     super();
     
-    this.state= {
-        slides: ['pane1','pane2', 'pane3']};
+    this.state = {
+        slides: ['pane 1', 'pane 2', 'pane 3']
+    };
   }    
   
   componentDidUpdate(prevProps, prevState) {
@@ -41,7 +42,7 @@ class Carousel extends React.Component {
           {this.state.slides.map(slide => {
             return (
               <div key={slide} className="item">
-                {slide}
+                {slide.toUpperCase()}
               </div>
             );
           })}
@@ -57,48 +58,7 @@ class Carousel extends React.Component {
   }
 }
 
-
 ReactDOM.render(
   <Carousel />,
   document.getElementById('root')
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

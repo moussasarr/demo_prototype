@@ -1,4 +1,4 @@
- body {
+body {
       background: #f3f3f3;
       font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
       text-align: center;
@@ -9,7 +9,7 @@
       background: #fff;
       overflow: hidden;
       line-height: 214px;
-      height: 90%;
+      height: 214px;
       width: 90%;
-      border:  2px solid grey;
+      height: 90%;
     }
