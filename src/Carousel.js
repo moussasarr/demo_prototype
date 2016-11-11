@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class Carousel extends React.Component {
@@ -7,7 +6,7 @@ class Carousel extends React.Component {
     super();
     
     this.state = {
-        slides: ['pane 1', 'pane 2', 'pane 3']
+        slides: ['<img src="../images/image1" />', '<img src="../images/image2" />', '<img src="../images/image3" />', '<img src="../images/image4" />', '<img src="../images/image5" />', '<img src="../images/image6" />', '<img src="../images/image7" />', '<img src="../images/image8" />', '<img src="../images/image9" />', '<img src="../images/image10" />', '<img src="../images/image11" />', '<img src="../images/image12" />', '<img src="../images/image13" />', '<img src="../images/image14" />', '<img src="../images/image15" />']
     };
   }    
   
@@ -37,7 +36,7 @@ class Carousel extends React.Component {
           {this.state.slides.map(slide => {
             return (
               <div key={slide} className="item">
-                {slide.toUpperCase()}
+                {slide}
               </div>
             );
           })}
