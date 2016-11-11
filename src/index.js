@@ -12,7 +12,7 @@ class Carousel extends React.Component {
     super();
     
     this.state= {
-        slides: [<img src='images/image1.jpg' role="presentation" />, <img src='images/image2.jpg' role="presentation"/>, <img src='images/image3.jpg' role="presentation"/>, <img src='images/image4.jpg' role="presentation"/>, <img src='images/image5.jpg' role="presentation"/>, <img src='images/image6.jpg' role="presentation" />, <img src='images/image7.jpg' role="presentation"/>, <img src='images/image8.jpg' role="presentation"/>, <img src='images/image9.jpg' role="presentation"/>, <img src='images/image10.jpg' role="presentation"/>, <img src='images/image11.jpg' role="presentation"/>, <img src='images/image12.jpg' role="presentation"/>, <img src='images/image13.jpg' role="presentation"/>, <img src='images/image14.jpg' role="presentation"/>, <img src='images/image15.jpg' role="presentation"/>]};
+        slides: ['pane1','pane2', 'pane3']};
   }    
   
   componentDidUpdate(prevProps, prevState) {
