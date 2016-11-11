@@ -68,8 +68,8 @@ var Home = React.createClass({
          <img src='images/image1'  style={{width: '25vw', height: '25vh' }}/>
        </div>
 
-       <div className="col-xs-2">
-        <img src='images/image3'  style={{width: '25vw', height: '25vh' }}/>
+       <div className="col-xs-3">
+        <img src='images/image2'  style={{width: '25vw', height: '25vh' }}/>
        </div>
 
 
@@ -85,6 +85,26 @@ var Home = React.createClass({
     </div>
 
 
+    <div className="row ">
+       <div className="col-xs-3" style={{display: 'none'}}>
+         
+       </div>
+
+       <div className="col-xs-3" style={{width: '25vw', height: '25vh', background: 'white', border:'white' }}>
+       
+       </div>
+
+
+      <div className="col-xs-3">
+        <img src='images/image3' style={{width: '25vw', height: '25vh' }}/> 
+      </div>
+   
+
+       <div className="col-xs-3" style={{display: 'none'}}>
+         
+       </div>
+
+    </div>
 
 
 
