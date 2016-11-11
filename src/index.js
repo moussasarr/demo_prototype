@@ -49,9 +49,9 @@ class Carousel extends React.Component {
         </ReactSwipe>
 
         <div>
-          <button type="button" onClick={::this.prev}>Prev</button>
-          <button type="button" onClick={::this.next}>Next</button>
-          <button type="button" onClick={::this.addSlide}>Add Slide</button>
+          <button type="button" onClick={this.prev}>Prev</button>
+          <button type="button" onClick={this.next}>Next</button>
+          <button type="button" onClick={this.addSlide}>Add Slide</button>
         </div>
       </div>
     );
