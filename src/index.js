@@ -15,20 +15,24 @@ var Home = React.createClass({
     <div className="homeView">
       <div className="row header">
        <div className= "col-xs-3">
+       <br /><br />
         <h2> Header 1</h2>
        </div>
 
        <div className= "col-xs-3">
+       <br /><br />
         <h2> Header 2</h2>
        </div>
 
 
       <div className= "col-xs-3">
+      <br /><br />
         <h2> Header 3</h2>
        </div>
    
 
        <div className= "col-xs-3">
+       <br /><br />
         <h2> Header 4</h2>
        </div>
     </div>
