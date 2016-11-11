@@ -42,17 +42,11 @@ class Carousel extends React.Component {
           {this.state.slides.map(slide => {
             return (
               <div key={slide} className="item">
-                <img src={slide} alt="An Image" class="image"/>
+                <img src={slide} alt="Person" style={{width: '80vw', height: '80vh' }}/>
               </div>
             );
           })}
         </ReactSwipe>
-
-        <div>
-          <button type="button" onClick={this.prev}>Prev</button>
-          <button type="button" onClick={this.next}>Next</button>
-          <button type="button" onClick={this.addSlide}>Add Slide</button>
-        </div>
       </div>
     );
   }
